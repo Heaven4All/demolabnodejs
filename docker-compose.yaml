@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
     openweather:
-        image: openweather
+        image: a4s/LAB-TEST-DEPLOYMENT:1.0
 
         hostname: "secnodejs.agile4security.io"
 
