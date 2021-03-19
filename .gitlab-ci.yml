@@ -1,8 +1,3 @@
-trigger: "push"
-
-default:
-  before_script:
-    - echo "Execute this script in all jobs that don't already have a before_script section."
 
 job1:
   script:
