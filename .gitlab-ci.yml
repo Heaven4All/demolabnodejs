@@ -4,8 +4,10 @@ workflow:
     - when: never
 
 job1:
+  stage: build
   script:
     - echo "This script executes after the global before_script."
+    - curl www.google.com
 
 job:
   before_script:
