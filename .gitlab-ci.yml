@@ -5,7 +5,7 @@ variables:
   - PROJECT_BLOCK_ON_SECURITY_ISSUES: "false"
   - PROJECT_LANGUAGES: "node"
   - PROJECT_BUILD_IMAGE: "node:14"
-  - PROJECT_BUILD_SCRIPT: "npm instll"
+  - PROJECT_BUILD_SCRIPT: "npm install"
   - PROJECT_BUILD_LIBS: ""
   - PROJECT_BUILD_ARTIFACTS: "./node_modules"
   - FORTIFY_SSC_URL: "https://ssc.agile4security.io"
