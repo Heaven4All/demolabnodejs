@@ -28,7 +28,7 @@ pipeline {
 
                 script {
                     if (isUnix()) {
-                        System.out.println("TOto+")
+                        //System.out.println("TOto+")
                         sh(script: "echo monscript")
                     }
                     fortifyClean(
