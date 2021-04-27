@@ -1,4 +1,7 @@
 pipeline {
+    agent {
+        label 'scancentral'
+    }
     environment {
         pipelineBuildID = "FORM-AP"
     }
