@@ -8,7 +8,7 @@ variables:
   PROJECT_BUILD_SCRIPT: "npm install"
   PROJECT_BUILD_LIBS: ""
   PROJECT_BUILD_ARTIFACTS: "./node_modules"
-  FORTIFY_SSC_URL: "https://ssc.agile4security.io"
+  FORTIFY_SSC_URL: "http://ssc:8080"
   FORTIFY_ATTRIBUTES: ""
   FORTIFY_ISSUE_TEMPLATE: "SOGETI Issue Template"
   SAST_ENABLE: "true"
