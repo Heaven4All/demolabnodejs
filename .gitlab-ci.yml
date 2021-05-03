@@ -2,7 +2,7 @@ variables:
   PROJECT_VERSION: "gitlabci"
   PROJECT_NAME: "openweather"
   PROJECT_IMAGE_NAME: "nexoss.agile4security.io:5000/a4s/bubble:2.9"
-  PROJECT_BLOCK_ON_SECURITY_ISSUES: "false"
+  PROJECT_BLOCK_ON_SECURITY_ISSUES: "true"
   PROJECT_LANGUAGES: "node"
   PROJECT_BUILD_IMAGE: "node:14"
   PROJECT_BUILD_SCRIPT: "npm install"
@@ -19,7 +19,7 @@ variables:
   SAST_FORTIFY_JAVA_VERSION: ""
   SAST_FORTIFY_PHP_VERSION: ""
   SAST_FORTIFY_PYTHON_VERSION: ""
-  SAST_FORTIFY_PASS_FAIL_POLICY: ""
+  SAST_FORTIFY_PASS_FAIL_POLICY: "[fortify priority order]:critical AND [analysis type]:SCA"
   # full, partial or no
   SAST_FORTIFY_SCANCENTRAL_ENABLE: "no"
   SAST_FORTIFY_SCANCENTRAL_CONTROLLER_URL: ""
