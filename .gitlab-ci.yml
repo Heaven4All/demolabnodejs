@@ -7,7 +7,7 @@ variables:
   PROJECT_BUILD_IMAGE: "node:14"
   PROJECT_BUILD_SCRIPT: "npm install"
   PROJECT_BUILD_LIBS: ""
-  PROJECT_BUILD_ARTIFACTS: "./node_modules"
+  PROJECT_BUILD_ARTIFACTS: "./node_modules;./package.json;./package-lock.json"
   FORTIFY_SSC_URL: "http://ssc:8080/"
   FORTIFY_ATTRIBUTES: ""
   FORTIFY_ISSUE_TEMPLATE: "SOGETI Issue Template"
