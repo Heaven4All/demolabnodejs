@@ -38,7 +38,7 @@ variables:
   OSS_NEXUS_IQ_STAGE: "release"
   OSS_NEXUS_IQ_EXCLUDES: ""
   OSS_NEXUS_IQ_URL: "http://nexus-iq-server:8070/"
-  OSS_NEXUS_IQ_PASS_FAIL_POLICY: "[fortify priority order]:critical AND [analysis type]:SONATYPE"
+  OSS_NEXUS_IQ_PASS_FAIL_POLICY: "[fortify priority order]:medium AND [analysis type]:SONATYPE"
   CQ_SONARQUBE_ENABLE: ""
   CQ_SONARQUBE_URL: ""
   CQ_SONARQUBE_PASS_FAIL_POLICY: ""
