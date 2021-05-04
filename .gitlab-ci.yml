@@ -19,7 +19,7 @@ variables:
   SAST_FORTIFY_JAVA_VERSION: ""
   SAST_FORTIFY_PHP_VERSION: ""
   SAST_FORTIFY_PYTHON_VERSION: ""
-  SAST_FORTIFY_PASS_FAIL_POLICY: "[fortify priority order]:critical AND [analysis type]:SCA"
+  SAST_FORTIFY_PASS_FAIL_POLICY: "[fortify priority order]:medium AND [analysis type]:SCA"
   # full, partial or no
   SAST_FORTIFY_SCANCENTRAL_ENABLE: "no"
   SAST_FORTIFY_SCANCENTRAL_CONTROLLER_URL: ""
