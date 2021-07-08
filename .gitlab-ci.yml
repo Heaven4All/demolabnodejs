@@ -2,7 +2,7 @@ variables:
   PROJECT_VERSION: "gitlabci"
   PROJECT_NAME: "openweather"
   PROJECT_IMAGE_NAME: "nexoss.agile4security.io:5000/a4s/bubble:2.9"
-  PROJECT_BLOCK_ON_SECURITY_ISSUES: "true"
+  PROJECT_BLOCK_ON_SECURITY_ISSUES: "false"
   PROJECT_LANGUAGES: "node"
   PROJECT_BUILD_IMAGE: "node:14"
   PROJECT_BUILD_SCRIPT: "npm install"
