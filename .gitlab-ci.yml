@@ -53,7 +53,11 @@ variables:
   DAST_ACUNETIX_TARGET_CRITICALITY: "10"
   DAST_ACUNETIX_PASS_FAIL_POLICY: ""
 
+.general-tags:
+  tags:
+    - linux
+
 include:
-  - project: "fmolina/gitlabcicd-secgates"
+  - project: "fmolina/secgates-gitlab-ci"
     ref: master
     file: ".gitlab-ci-base.yml"
