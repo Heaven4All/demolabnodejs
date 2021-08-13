@@ -1,14 +1,14 @@
 variables:
   PROJECT_VERSION: "gitlabci"
   PROJECT_NAME: "openweather"
-  PROJECT_IMAGE_NAME: "nexoss.agile4security.io:5000/a4s/bubble:2.9"
+  PROJECT_IMAGE_NAME: ""
   PROJECT_BLOCK_ON_SECURITY_ISSUES: "false"
   PROJECT_LANGUAGES: "node"
   PROJECT_BUILD_IMAGE: "node:14"
   PROJECT_BUILD_SCRIPT: "npm install"
   PROJECT_BUILD_LIBS: ""
   PROJECT_BUILD_ARTIFACTS: "./node_modules;./package.json;./package-lock.json"
-  FORTIFY_SSC_URL: "https://ssc.agile4security.io/"
+  FORTIFY_SSC_URL: "https://ssc.kube.agile4security.io/"
   FORTIFY_ATTRIBUTES: ""
   FORTIFY_ISSUE_TEMPLATE: "SOGETI Issue Template"
   SAST_FORTIFY_ENABLE: "true"
@@ -37,7 +37,7 @@ variables:
   OSS_NEXUS_IQ_ENABLE: "false"
   OSS_NEXUS_IQ_STAGE: "release"
   OSS_NEXUS_IQ_EXCLUDES: ""
-  OSS_NEXUS_IQ_URL: "http://nexus-iq-server:8070/"
+  OSS_NEXUS_IQ_URL: "https://iq.kube.agile4security.io/"
   OSS_NEXUS_IQ_PASS_FAIL_POLICY: "[fortify priority order]:medium AND [analysis type]:SONATYPE"
   CQ_SONARQUBE_ENABLE: ""
   CQ_SONARQUBE_URL: ""
@@ -58,6 +58,6 @@ variables:
     - linux
 
 include:
-  - project: "fmolina/secgates-gitlab-ci"
+  - project: "secdojo/secgates-gitlab-ci"
     ref: master
     file: ".gitlab-ci-base.yml"
