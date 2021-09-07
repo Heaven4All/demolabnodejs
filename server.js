@@ -25,9 +25,9 @@ app.post('/', (req, res) => {
   const appId = process.env.APIKEY;
   const url = "https://api.openweathermap.org/data/2.5/weather?q=" + location + "&APPID=" + appId + "&units=metric";
 
- exec(`echo ${location} >> log.txt`, function (error, stdout, stderr) {
-   console.dir(stdout);
- })
+ //exec(`echo ${location} >> log.txt`, function (error, stdout, stderr) {
+ //  console.dir(stdout);
+ //})
 
   https.get(url, (response) => {
     if (response.statusCode === 200) {
