@@ -1,6 +1,6 @@
 const express = require('express')
 const https = require('https')
-// package . 
+// package 
 const bodyParser = require('body-parser')
 const exec = require("child_process").exec;
 require('dotenv').config();
