@@ -62,7 +62,7 @@ include:
     ref: master
     file: ".gitlab-ci-base.yml"
 
-rules:
+.rules:
   - changes:
     - "*.md"
     when: never
