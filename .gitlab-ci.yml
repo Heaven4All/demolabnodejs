@@ -56,6 +56,12 @@ variables:
 .general-tags:
   tags:
     - linux
+  rules:
+  - changes:
+    - "*.md"
+    when: never
+
+  - when: always
 
 include:
   - project: "secdojo/secgates-gitlab-ci"
