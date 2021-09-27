@@ -56,14 +56,15 @@ variables:
 .general-tags:
   tags:
     - linux
-  rules:
-  - changes:
-    - "*.md"
-    when: never
-
-  - when: always
 
 include:
   - project: "secdojo/secgates-gitlab-ci"
     ref: master
     file: ".gitlab-ci-base.yml"
+
+rules:
+  - changes:
+    - "*.md"
+    when: never
+
+  - when: always
