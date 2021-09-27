@@ -61,16 +61,3 @@ include:
   - project: "secdojo/secgates-gitlab-ci"
     ref: master
     file: ".gitlab-ci-base.yml"
-
-.rules:
-  - changes:
-    - "*.md"
-    - ".gitlab-ci.yml"
-    - "*.log"
-    - "*.txt"
-    - "/**/*.log"
-    - "/**/*.txt"
-    - "/**/*.md"
-    when: never
-
-  - when: always
