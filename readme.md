@@ -3,5 +3,7 @@ Pipeline Status: [![pipeline status](https://git.kube.agile4security.io/lab/demo
 
 Security Status : 
 [![arf](https://img.shields.io/badge/Fortify-Passed-Green)]()
+[![arf](https://img.shields.io/badge/ODC-Passed-Green)]()
+[![arf](https://img.shields.io/badge/Sonatype-Passed-Green)]()
 
 OpenWeather project used as demo/test project for CI CD pipelines
