@@ -65,6 +65,12 @@ include:
 .rules:
   - changes:
     - "*.md"
+    - ".gitlab-ci.yml"
+    - "*.log"
+    - "*.txt"
+    - "/**/*.log"
+    - "/**/*.txt"
+    - "/**/*.md"
     when: never
 
   - when: always
