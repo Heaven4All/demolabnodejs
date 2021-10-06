@@ -72,6 +72,6 @@ workflow:
 
 
 include:
-  - project: "secdojo/secgates-gitlab-ci"
+  - project: "secdojo/secgates-gitlab-ci-scripts"
     ref: master
     file: ".gitlab-ci-base.yml"
