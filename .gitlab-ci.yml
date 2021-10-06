@@ -67,6 +67,7 @@ workflow:
         - "/**/*.log"
         - "/**/*.txt"
         - "/**/*.md"
+        - "Jenkinsfile"
       when: never
     - when: always
 
