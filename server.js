@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 })
 
 app.post('/', (req, res) => {
-  const location = req.body.location ? req.body.location : "Lyon";
+  const location = req.body.location ? req.body.location : "Mumbai";
   const appId = process.env.APIKEY;
   const url = "https://api.openweathermap.org/data/2.5/weather?q=" + location + "&APPID=" + appId + "&units=metric";
 
