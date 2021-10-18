@@ -33,6 +33,7 @@ variables:
   OSS_ODT_ENABLE: "true"
   OSS_ODT_DEPENDENCY_MANAGER: "npm"
   OSS_ODT_URL: "https://otrack.kube.agile4security.io/"
+  OSS_ODT_URL_API: "https://otrack-api.kube.agile4security.io/"
   OSS_ODT_PASS_FAIL_POLICY: ""
   OSS_NEXUS_IQ_ENABLE: "false"
   OSS_NEXUS_IQ_STAGE: "release"
