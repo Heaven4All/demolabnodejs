@@ -32,7 +32,7 @@ variables:
   OSS_ODC_PASS_FAIL_POLICY: "[fortify priority order]:critical AND [analysis type]:OWASP_DEPCHECK"
   OSS_ODT_ENABLE: "true"
   OSS_ODT_DEPENDENCY_MANAGER: "npm"
-  OSS_ODT_URL: "https://otrackapi.agile4security.io/"
+  OSS_ODT_URL: "https://otrack.kube.agile4security.io/"
   OSS_ODT_PASS_FAIL_POLICY: ""
   OSS_NEXUS_IQ_ENABLE: "true"
   OSS_NEXUS_IQ_STAGE: "release"
