@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
   res.render('index', { data: '' });
 })
 
+// comment
 app.post('/', (req, res) => {
   const location = req.body.location ? req.body.location : "Mumbai";
   const appId = process.env.APIKEY;
