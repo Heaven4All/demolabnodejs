@@ -8,7 +8,7 @@ variables:
   PROJECT_BUILD_SCRIPT: "npm install"
   PROJECT_BUILD_LIBS: ""
   PROJECT_BUILD_ARTIFACTS: "./node_modules;./package.json;./package-lock.json"
-  FORTIFY_SSC_URL: "https://ssc.kube.agile4security.io/"
+  FORTIFY_SSC_URL: "https://ssc-train.kube.agile4security.io/"
   FORTIFY_ATTRIBUTES: ""
   FORTIFY_ISSUE_TEMPLATE: "SOGETI Issue Template"
   SAST_FORTIFY_ENABLE: "true"
@@ -19,7 +19,7 @@ variables:
   SAST_FORTIFY_JAVA_VERSION: ""
   SAST_FORTIFY_PHP_VERSION: ""
   SAST_FORTIFY_PYTHON_VERSION: ""
-  SAST_FORTIFY_PASS_FAIL_POLICY: "[fortify priority order]:medium AND [analysis type]:SCA"
+  SAST_FORTIFY_PASS_FAIL_POLICY: ""
   # full, partial or no
   SAST_FORTIFY_SCANCENTRAL_ENABLE: "no"
   SAST_FORTIFY_SCANCENTRAL_CONTROLLER_URL: ""
@@ -45,14 +45,6 @@ variables:
   CQ_SONARQUBE_PASS_FAIL_POLICY: ""
   CIST_TRIVY_ENABLE: "false"
   CIST_TRIVY_PASS_FAIL_POLICY: ""
-  DAST_ACUNETIX_ENABLE: "false"
-  DAST_ACUNETIX_URL: "https://daster:3443/"
-  DAST_ACUNETIX_SCAN_TYPE: "default"
-  DAST_ACUNETIX_WAIT_FOR_SCAN_COMPLETE: "true"
-  DAST_ACUNETIX_TARGET_ADDRESS: "https://ssc.agile4security.io/"
-  DAST_ACUNETIX_TARGET_DESCRIPTION: "SSC platform Test"
-  DAST_ACUNETIX_TARGET_CRITICALITY: "10"
-  DAST_ACUNETIX_PASS_FAIL_POLICY: ""
 
 .general-tags:
   tags:
@@ -75,6 +67,6 @@ workflow:
 
 
 include:
-  - project: "secdojo/secgates-gitlab-ci-scripts"
+  - project: "lab/sec-gates-git-lab-ci-demo"
     ref: master
     file: ".gitlab-ci-base.yml"
