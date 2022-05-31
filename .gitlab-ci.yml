@@ -10,7 +10,7 @@ variables:
   PROJECT_BUILD_ARTIFACTS: "./node_modules;./package.json;./package-lock.json"
   FORTIFY_SSC_URL: "https://ssc-train.kube.agile4security.io/"
   FORTIFY_ATTRIBUTES: ""
-  FORTIFY_ISSUE_TEMPLATE: ""
+  FORTIFY_ISSUE_TEMPLATE: "" 
   SAST_FORTIFY_ENABLE: "true"
   SAST_FORTIFY_EXCLUDES: ""
   SAST_FORTIFY_JVM_OPTIONS: "-Xmx4G"
