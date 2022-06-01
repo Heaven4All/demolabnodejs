@@ -48,7 +48,7 @@ variables:
 
 .general-tags:
   tags:
-    - linux
+    - linux 
 
 workflow:
   rules:
