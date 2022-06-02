@@ -52,7 +52,7 @@ variables:
   DAST_ACUNETIX_TARGET_ADDRESS: "https://ssc.agile4security.io/"
   DAST_ACUNETIX_TARGET_DESCRIPTION: "SSC platform Test"
   DAST_ACUNETIX_TARGET_CRITICALITY: "10"
-  DAST_ACUNETIX_PASS_FAIL_POLICY: ""
+  DAST_ACUNETIX_PASS_FAIL_POLICY: "" 
 
 .general-tags:
   tags:
