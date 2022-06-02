@@ -22,7 +22,7 @@ variables:
   SAST_FORTIFY_PASS_FAIL_POLICY: ""
   # full, partial or no 
   SAST_FORTIFY_SCANCENTRAL_ENABLE: "full" 
-  SAST_FORTIFY_SCANCENTRAL_CONTROLLER_URL: "https://scctrl-demo.kube.agile4security.io/"
+  SAST_FORTIFY_SCANCENTRAL_CONTROLLER_URL: "http://scancentral-controller.fortify-demo/scancentral-ctrl"
   SAST_FORTIFY_SCANCENTRAL_BUILD_TOOL: ""
   SAST_FORTIFY_SCANCENTRAL_BUILD_FILE: ""
   SAST_FORTIFY_SCANCENTRAL_WAIT_FOR_SCAN_COMPLETE: ""
