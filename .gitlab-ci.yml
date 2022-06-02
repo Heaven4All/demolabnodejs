@@ -62,7 +62,7 @@ workflow:
         - "Jenkinsfile"
         - "sonar-project.properties"
       when: never
-    - when: always
+    - when: always 
 
 
 include:
